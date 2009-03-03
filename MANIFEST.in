@@ -1,0 +1,3 @@
+include passengerpylonswsgiexample/config/deployment.ini_tmpl
+recursive-include passengerpylonswsgiexample/public *
+recursive-include passengerpylonswsgiexample/templates *
