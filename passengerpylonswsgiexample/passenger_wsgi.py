@@ -1,6 +1,6 @@
 import os, sys                                                                                                                                          
 sys.path.append('/Users/maciejlitwiniuk/Sites/passenger-pylons-wsgi-example')                                                                     
-os.environ['PYTHON_EGG_CACHE'] = '/Users/maciejlitwiniuk/dev/eggs'                                                           
+os.environ['PYTHON_EGG_CACHE'] = '/Users/maciejlitwiniuk/Sites/eggs'                                                           
 from paste.deploy import loadapp                                                                                                                        
                                                                                                                                                         
 def application(environ, start_response):                                                                                                               
